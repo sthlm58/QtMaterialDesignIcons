@@ -7,6 +7,7 @@
 #include <QPainter>
 
 #include <mutex>
+#include <cstring>
 
 namespace detail { namespace
 {
