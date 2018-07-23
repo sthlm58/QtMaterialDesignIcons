@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 
 	auto label = new QLabel;
-	label->setPixmap(material::pixmap("eye", QSize(32, 32)));
+	label->setPixmap(material::pixmap("eye", QSize(32, 32), Qt::darkGray));
 
 	label->show();
 

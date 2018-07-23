@@ -4,7 +4,7 @@ Project {
     minimumQbsVersion: "1.7.1"
 
     CppApplication {
-        Depends { name: "Qt"; submodules: ["core", "widgets" ] }
+        Depends { name: "Qt"; submodules: ["core", "widgets", "xml", "svg" ] }
 
         cpp.includePaths: [ "../sources/" ]
         cpp.cxxLanguageVersion: "c++11"
