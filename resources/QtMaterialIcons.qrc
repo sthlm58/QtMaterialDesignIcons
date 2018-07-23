@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>materialdesignicons-webfont.ttf</file>
+        <file>materialdesignicons-webfont.svg</file>
     </qresource>
 </RCC>
