@@ -4,7 +4,7 @@ Project {
     minimumQbsVersion: "1.7.1"
 
     CppApplication {
-        Depends { name: "Qt"; submodules: ["core", "widgets", "xml", "svg" ] }
+        Depends { name: "Qt"; submodules: ["core", "widgets", "xml", "svg", "qml" ] }
 
         cpp.includePaths: [ "../sources/" ]
         cpp.cxxLanguageVersion: "c++11"
@@ -12,9 +12,11 @@ Project {
         files: [
             "*.cpp",
             "*.h",
-            "../resources/QtMaterialIcons.qrc",
-            "../sources/MaterialDesignIcons.h",
-            "../sources/MaterialDesignIcons.cpp"
+            "../qml/*.qml",
+            "../qml/*.js",
+            "../resources/*.qrc",
+            "../sources/*.h",
+            "../sources/*.cpp",
         ]
     }
 }
